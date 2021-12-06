@@ -13,6 +13,6 @@ div.paintings img {
 }
 
 #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9:hover {
-    box-shadow: rgb(51, 51, 51) 0px 0px 40px,  
-                rgb(51, 51, 51) -10px 0px 40px;
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
 }
