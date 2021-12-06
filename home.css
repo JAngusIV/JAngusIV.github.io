@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 750px) {
+
+        .parent {
+            display: flex;
+        }
+
+}
+
+
+img#jangus {
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+    min-width: 400px;
+    min-height: 400px;
+    box-shadow: rgb(51, 51, 51) 10px 0px 40px,  
+                rgb(51, 51, 51) -10px 0px 40px;
+    border-radius: 50%;
+}
