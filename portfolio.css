@@ -12,7 +12,39 @@ div.paintings img {
     border-radius: 30px;
 }
 
-#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9:hover {
+#p1:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p2:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p3:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p4:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p5:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p6:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p7:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p8:hover {
+    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
+                rgb(255, 255, 150) -10px 0px 40px;
+}
+#p9:hover {
     box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
                 rgb(255, 255, 150) -10px 0px 40px;
 }
