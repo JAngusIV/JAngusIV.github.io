@@ -1,5 +1,6 @@
 
-@media (max-width: 500px) {
+@media (max-width: 500px) 
+{
     
     
     img {
@@ -11,9 +12,11 @@
     .guide{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);        
+        display:flow-root;
         }
-        
+
+       
     #guidespacer {
         display: block;
         float: left;
@@ -33,25 +36,32 @@ footer img {
     height: 8%;
     width: 8%; 
     min-width: 50px;
-    min-height: 50px;
+    min-height: 50px;    
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 1px 1px 10px 10px rgba(255,255,255, 120);
 }
 
 
+footer img#git {
+    border-radius: 100%;
+}
+
 .column img#linkedin:hover {
-    box-shadow: inset 0 0 5px rgb(255, 255, 150), 0 0 5px black;
+    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
 }
 
 .column img#git:hover {
-    box-shadow: inset 0 0 5px rgb(255, 255, 150), 0 0 5px black;
+    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
 }
 
 .column img#email:hover {
-    box-shadow: inset 0 0 5px rgb(255, 255, 150), 0 0 5px black;
+    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
 }
 
 .column{
     float:left;
-    width: 25%;
+    width: 24%;
     padding: 5px;
   }
 
@@ -64,5 +74,10 @@ button {
     text-shadow: 2px 2px rgba(51, 51, 51, 51);     
 }
 
+#topBar
+{
+    background-color: white;
+    border-radius: 10px;
+}
 
 

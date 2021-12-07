@@ -32,8 +32,8 @@ div.pictures img {
     max-width: 100%;
     max-height: 100%;
 
-    box-shadow: rgb(51, 51, 51) 0px 0px 40px,  
-                rgb(51, 51, 51) -10px 0px 40px;
+    box-shadow: rgba(51, 51, 51, 120) 0px 0px 40px,  
+                rgba(51, 51, 51, 120) -10px 0px 40px;
     padding: 10px;
     border-radius: 30px;
 }
@@ -43,46 +43,46 @@ div.pictures img {
 
 #n1:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n2:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n3:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n4:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n5:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n6:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n7:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n8:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }
 #n9:hover
 {
-    box-shadow: rgb(255, 255, 150) 0px 0px 40px,  
-                rgb(255, 255, 150) -10px 0px 40px;
+    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
+                rgba(255,255,255, 120) -10px 0px 40px;
 }

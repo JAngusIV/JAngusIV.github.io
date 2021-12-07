@@ -84,7 +84,7 @@ function randomItemFromArray(arr, not)
 function mediaQuery(x) {
 
     if (x.matches) { // If media query matches
-      document.body.style.backgroundColor = "#FFBCD9";
+      document.body.style.backgroundColor = "#bcbcbc";
     } else {
      document.body.style.backgroundColor = "white";
 
