@@ -4,12 +4,17 @@
 
 div.paintings img {
     
+    max-width: 40%;
     margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
     box-shadow: rgb(51, 51, 51) 0px 0px 40px,  
                 rgb(51, 51, 51) -10px 0px 40px;
-    padding: 20px;
     background-image: url(wood2.jpg);
-    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: cover;
 }
 
 #p1:hover {

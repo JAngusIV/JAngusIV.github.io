@@ -11,10 +11,15 @@ div.pictures {
 
 }
 
-h3 {
+#networks {
     background-image: url(circuit.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
     box-shadow: rgb(51, 51, 51) 0px 0px 40px,  
                 rgb(51, 51, 51) -10px 0px 40px;
+    padding: 2%;    
 }
 
 
