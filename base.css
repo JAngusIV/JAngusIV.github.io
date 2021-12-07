@@ -81,3 +81,13 @@ button {
 }
 
 
+p
+{
+    text-align: center;
+    text-shadow:0.3px 0.3px rgba(51,51,51, 120);
+}
+
+p > #achievements
+{
+    text-decoration: underline;
+}
