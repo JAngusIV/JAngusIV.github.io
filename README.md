@@ -14,7 +14,7 @@ categories:
 ---
 # *Jack Angus* #
 
-<img src="jangus.jpg" alt="Jack Angus" width="80%" />
+<img src="jangus.jpg" alt="Jack Angus" width="400px"/>
 
 
 
