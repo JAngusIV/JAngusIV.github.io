@@ -1,7 +1,7 @@
+<body>
+<div style="background-color: white;">
+
 # JAngusIV.github.io
-
-
-
 
 ---
 title: Jack Angus Profile
@@ -64,3 +64,7 @@ categories:
 <img src="linkedin.png" alt="linkedin" width="50"/>
 </a>
 </div>
+
+
+</div>
+</body>
