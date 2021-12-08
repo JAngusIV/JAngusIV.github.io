@@ -14,30 +14,30 @@ categories:
 ---
 # *Jack Angus* #
 
-![picture of Jack Angus](./jangus.jpg)
+<img src="jangus.jpg" alt="Jack Angus" width="80%" />
 
 
 
-## <img src="home.png" alt="drawing" width="50"/> [Home](https://jangusiv.github.io/index.html) ##
+## <img src="home.png" alt="home" width="50"/> [Home](https://jangusiv.github.io/index.html) ##
 
 
 *This page gives a summary of the individual, Jack Angus, as well as several key notes of professional development.*
 
-##  <img src="pfolio.png" alt="drawing" width="50"/> [Portfolio](https://jangusiv.github.io/angus_portfolio.html) ##
+##  <img src="pfolio.png" alt="portfolio" width="50"/> [Portfolio](https://jangusiv.github.io/angus_portfolio.html) ##
 *Contains several art pieces for the viewer to observe.*
 
 ` - Hovering over each piece highlights it.`
 
 ` - Ability to click on paintings has been intentionally left null.`
 
-## <img src="nwork.png" alt="drawing" width="50"/> [Networks](https://jangusiv.github.io/angus_networks.html) ##
+## <img src="nwork.png" alt="networks" width="50"/> [Networks](https://jangusiv.github.io/angus_networks.html) ##
 *Contains several Network topologies tested and implemented by Jack Angus.*
 
 ` - Hovering over each design highlights it.`
 
 ` - Each topology may be clicked on and viewed in an enlarged format`
 
-## <img src="joke.png" alt="drawing" width="50"/> [Jokes](https://jangusiv.github.io/jokes.html) ##
+## <img src="joke.png" alt="jokes" width="50"/> [Jokes](https://jangusiv.github.io/jokes.html) ##
 *Utilizes AJAX and a Dad-Joke API to provide randomly generated Dad Jokes with each click of a designated button.*
 
 ` - Has different functions dependent on mobile or PC media query`
