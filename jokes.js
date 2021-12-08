@@ -119,4 +119,3 @@ function mediaQuery(x) {
     });
   }
 }
-
