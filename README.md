@@ -4,7 +4,8 @@
 # JAngusIV.github.io
 
 ---
-title: Jack Angus Profile
+title: 
+    Jack Angus Profile
 categories:
  - HTML
  - CSS

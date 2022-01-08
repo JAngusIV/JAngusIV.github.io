@@ -104,7 +104,7 @@ function mediaQuery(x) {
     document.body.style.backgroundColor = "#bcbcbc";
   } else {
    document.body.style.backgroundColor = "white";
-
+  
    /* Makes button move at random when hovered over */
    $(function() {
       $("button").on({
@@ -114,8 +114,11 @@ function mediaQuery(x) {
             top: (-10 + Math.random() * 20) + "em", 
           });
           changeColor()
+          hoverCount++
         }
       });
     });
+  
+
   }
 }
