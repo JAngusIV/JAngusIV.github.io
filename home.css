@@ -21,4 +21,18 @@ img#jangus {
     box-shadow: rgb(51, 51, 51) 10px 0px 40px,  
                 rgb(51, 51, 51) -10px 0px 40px;
     border-radius: 50%;
+    filter: grayscale(0.5);
+    margin-bottom: 10%;
+}
+
+div #profile
+{
+    font-size: medium;
+    margin: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div > #p1
+{
+    font-size: small;
 }
