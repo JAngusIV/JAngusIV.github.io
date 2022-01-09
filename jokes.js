@@ -101,7 +101,7 @@ function changeColor()
 function mediaQuery(x) {
 
   if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "#bcbcbc";
+    document.body.style.backgroundColor = "pink";
   } else {
    document.body.style.backgroundColor = "white";
   
