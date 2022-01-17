@@ -1,5 +1,11 @@
-<body>
-<div style="background-color: white;">
+<body  style="
+            background-image: url(testbg.jpg);
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-position: center;
+            background-size: cover;">
+
+<div>
 
 # JAngusIV.github.io
 
