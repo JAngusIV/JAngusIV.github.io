@@ -101,11 +101,11 @@ function changeColor()
 function mediaQuery(x) {
 
   if (x.matches) { // If media query matches
-    document.body.style.backgroundColor = "pink";
+    document.body.style.backgroundColor = "gray";
   } else {
    document.body.style.backgroundColor = "white";
   
-   /* Makes button move at random when hovered over */
+   /* Makes button move at random when hovered over
    $(function() {
       $("button").on({
         mouseover: function() {
@@ -118,7 +118,7 @@ function mediaQuery(x) {
         }
       });
     });
-  
+    */
 
   }
 }
