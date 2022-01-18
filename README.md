@@ -1,6 +1,12 @@
 <body>
 
-<div style="background-color: white;">
+<div style="    background-image: url('wbg.jpg');
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                background-position: center;
+                background-size: cover;
+                background-color: white;">
+
 
 # JAngusIV.github.io
 
@@ -67,6 +73,6 @@ categories:
 </a>
 </div>
 
-
 </div>
+
 </body>
