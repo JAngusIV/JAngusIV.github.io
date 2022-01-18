@@ -1,15 +1,38 @@
 @charset "utf-8";
 
 
-@media (min-width: 600px) {
-div.pictures {
-    display: grid;
-    max-width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 20px
+@media (min-width: 601px) {
+    div.pictures {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 20px
+    }
 }
 
+@media (max-width: 600px) {
+    #carouselExampleIndicators
+    {
+        margin: auto;
+        display: flex;
+        flex-flow: row;
+        min-height: 54%;
+        min-width: 96%;
+        max-height: 54%;
+        max-width: 96%;
+        box-shadow: rgba(51, 51, 51, 120) 0px 0px 40px,  
+                    rgba(51, 51, 51, 120) -10px 0px 40px;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    div.pictures img {
+        margin: auto;
+    }
 }
+
+
+
 
 #networks {
     background-image: url(circuit.jpg);
@@ -28,7 +51,7 @@ div.pictures img {
 
     display: flex;
     flex-flow: row;
-    margin: 10%;
+    margin: 6%;
     max-width: 90%;
     max-height: 90%;
     box-shadow: rgba(51, 51, 51, 120) 0px 0px 40px,  
@@ -84,4 +107,34 @@ div.pictures img {
 {
     box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
                 rgba(255,255,255, 120) -10px 0px 40px;
+}
+
+#carouselExampleIndicators
+{
+    height: 36%;
+    width: 64%;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    max-width: 96%;
+    max-height: 54%;
+    box-shadow: rgba(51, 51, 51, 120) 0px 0px 40px,  
+                rgba(51, 51, 51, 120) -10px 0px 40px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.carousel-inner img
+{ 
+    border-radius: 30px;
+    max-width: 96%;
+    max-height: 54%;
+    margin: auto;
+    object-fit:cover;
+}
+
+#carouselExampleIndicators:hover
+{
+    box-shadow: rgba(101,101,101, 120) 0px 0px 40px,  
+                rgba(101,101,101, 120) -10px 0px 40px;
 }
