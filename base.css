@@ -70,7 +70,7 @@ button {
     position:relative;
     height: auto;
     width: auto;
-    border-radius: 100%;
+    border-radius: 10px;
     box-shadow: 4px 5px 10px 2px rgba(51, 51, 51, 51), 0 0 5px;    
     text-shadow: 2px 2px rgba(51, 51, 51, 51);     
 }
