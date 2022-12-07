@@ -1,4 +1,6 @@
-<body style="background-color: white;">
+<body style="background-color: white; background-image: url('wbg.jpg')">
+
+
 
 
 <div style="    background-image: url('wbg.jpg');
