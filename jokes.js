@@ -130,11 +130,17 @@ async function handleClick()
 jokeButton.addEventListener("click", handleClick);
 
 
-/* Function for hovering over button will cause the button's color to change to a randomly generated color */
+/* Function for hovering over button will cause the button's color to change to a randomly generated color that is not white or black */
 function changeColor()
 {
     document.getElementById('button1').style.backgroundColor = '#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6);  
+    //filter over button color to make sure it is not white or black
+    if (document.getElementById('button1').style.backgroundColor == "rgb(255, 255, 255)" || document.getElementById('button1').style.backgroundColor == "rgb(0, 0, 0)")
+    {
+        changeColor();
+    }
 }
+
 
 /* Function to scan window size */
 // If window size is 500px or below, background becomes pink and button will remain static.
