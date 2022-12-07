@@ -1,4 +1,5 @@
-<body>
+<body style="background-color: white;">
+
 
 <div style="    background-image: url('wbg.jpg');
                 background-repeat: no-repeat;
