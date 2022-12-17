@@ -8,7 +8,8 @@ x.addEventListener("change", mediaQuery)
 
 // Initializes variables for when mouse hovers over button and clicks button
 var hoverCount = 0;
-var clickCount = 0;
+//clickCount defaults to zero, but if a cookie exists, it will be set to the value of the cookie
+var clickCount = document.cookie.replace(/(?:(?:^|.*;\s*)clickCount\s*\=\s*([^;]*).*$)|^.*$/, "$1");
 document.getElementById("clicksNum").innerHTML = clickCount;
 //color button on load
 changeColor();
@@ -73,6 +74,8 @@ async function fetchJoke()
     return data;
 }
 
+
+
 /* Function for when user clicks button */
 // Calls fetchJoke and generates text for random Dad Joke.
 // Calls a random item from buttonText to replace text read on button with each click.
@@ -89,6 +92,9 @@ async function handleClick()
     );
 
     clickCount++;
+
+    //store clickCount as a cookie
+    document.cookie = "clickCount=" + clickCount;
 
     changeColor();
 
