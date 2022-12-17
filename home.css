@@ -3,15 +3,6 @@
 }
 
 
-@media (min-width: 750px) {
-
-        .parent {
-            display: flex;
-        }
-
-}
-
-
 img#jangus {
     padding: 10px;
     height: 60vh;
@@ -56,8 +47,10 @@ div > #p1
     align-items: center;
     flex: 1;
 
-    margin: 5%;
+    margin: none;
     margin-top: none;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .child
@@ -77,3 +70,11 @@ div > #p1
 }
 
 
+@media (max-width: 749px) {
+
+    .parent {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
