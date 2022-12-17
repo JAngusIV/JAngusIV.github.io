@@ -49,15 +49,15 @@ footer img#git {
 }
 
 .column img#linkedin:hover {
-    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
+    transform: scale(1.2);
 }
 
 .column img#git:hover {
-    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
+    transform: scale(1.2);
 }
 
 .column img#email:hover {
-    box-shadow: 1px 1px 10px 10px rgba(51,51,51, 120);
+    transform: scale(1.2);
 }
 
 .column{
