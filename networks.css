@@ -65,49 +65,31 @@ div.pictures img {
 
 #n1:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n2:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n3:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n4:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n5:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n6:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n7:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n8:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 #n9:hover
 {
-    box-shadow: rgba(255,255,255, 120) 0px 0px 40px,  
-                rgba(255,255,255, 120) -10px 0px 40px;
-}
+transform: scale(1.1);}
 
 #carouselExampleIndicators
 {
