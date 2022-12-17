@@ -14,25 +14,66 @@
 
 img#jangus {
     padding: 10px;
-    height: 50%;
-    width: 50%;
-    min-width: 400px;
-    min-height: 400px;
+    height: 60vh;
+    width: 50vw;
+    max-width: 300px;
+    max-height: 500px;
     box-shadow: rgb(51, 51, 51) 10px 0px 40px,  
                 rgb(51, 51, 51) -10px 0px 40px;
     border-radius: 50%;
     filter: grayscale(0.5);
-    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div #profile
 {
-    font-size: medium;
-    margin: 10%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Georgia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 div > #p1
 {
-    font-size: small;
+    font-size: medium;
 }
+
+.parent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    margin: 5%;
+    margin-top: none;
+}
+
+.child
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+/*     box-shadow: rgb(51, 51, 51) 10px 0px 40px,  
+                rgb(51, 51, 51) -10px 0px 40px;
+ */    background-color: rgba(255, 255, 255, 0.5);
+}
+
+

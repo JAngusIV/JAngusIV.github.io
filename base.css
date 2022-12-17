@@ -88,3 +88,19 @@ p
     text-shadow:0.3px 0.3px rgba(51,51,51, 120);
 }
 
+.hr {
+    border-width: 5px;
+    width: 50vw;
+    border-color: rgb(201, 201, 201);
+    border-radius: 100%;
+}
+
+.w3-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+}
