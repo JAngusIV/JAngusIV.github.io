@@ -53,7 +53,7 @@ html {
     min-width: 50vw;
     min-height: 20vh;
     max-width: 80vw;
-    max-height: 80vh;
+    max-height: none;
     margin: 4rem auto;
     padding: 2rem;
     background: white;
